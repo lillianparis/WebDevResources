@@ -14,4 +14,6 @@ Web Development Resources
 
 ## Helpful Videos
 
+## VS Code Extensions
+
 ## Algorithms
