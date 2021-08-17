@@ -19,6 +19,8 @@ Web Development Resources
 ## Online Challenges
 
 - [Codewars](https://www.codewars.com/)
+- [Coderbyte](https://coderbyte.com/)
+- [HackerRank](https://www.hackerrank.com/)
 
 ## Interview Prep
 
