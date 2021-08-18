@@ -18,6 +18,8 @@ Web Development Resources
 
 ## Online Resources
 
+- [Git Explorer](https://gitexplorer.com/)
+
 ## Online Challenges
 
 - [Codewars](https://www.codewars.com/)
