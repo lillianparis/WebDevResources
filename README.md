@@ -42,3 +42,8 @@ Web Development Resources
 ## VS Code Extensions
 
 ## Algorithms
+
+## Powerpoints
+
+### Library vs. Framework
+
