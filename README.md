@@ -6,6 +6,11 @@ Web Development Resources
 
 ## Command Line
 
+- `dir` View Directories
+- `cd` : Change/Open Directory
+- `cd ..` Go back to previous Directory
+- `code .` Open in VS Code
+
 ## Coding Bootcamps
 
 ## Good Reads
