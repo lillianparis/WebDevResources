@@ -1,19 +1,19 @@
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import './App.css';
+
+// Stlye
+import "./App.css";
+
+//Pages
+import Landing from "./Pages/Landing";
+import About from "./Pages/About";
 
 function App() {
   return (
     <Router>
-<navbar>
-  <ul>
-    <li>
-      <link to="/">landing</link>
-    </li>
-  </ul>
-</navbar>
-
+      <Route exact path="/" component={Landing}/>
+      <Route exact path="/about" component={About}/>
     </Router>
-
   );
 }
 
