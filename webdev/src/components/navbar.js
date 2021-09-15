@@ -1,14 +1,15 @@
 import React from "react";
 import { Navbar, Icon, NavItem } from "react-materialize";
 import "materialize-css";
+import logo from "../images/webdevlogo.png";
 
 function Header() {
   return (
     <Navbar
       alignLinks="left"
       brand={
-        <a className="brand-logo" href="/">
-          Logo
+        <a class="brand-logo"  href="{logo}">
+
         </a>
       }
       centerLogo
@@ -27,7 +28,9 @@ function Header() {
       }}
     >
       <NavItem href="/about">About US! </NavItem>
-      <NavItem href="components.html">Components </NavItem>
+      <NavItem href="components.html">Good Reads</NavItem>
+      <NavItem href="components.html">Resources</NavItem>
+      <NavItem href="components.html">Exercises</NavItem>
     </Navbar>
   );
 }
