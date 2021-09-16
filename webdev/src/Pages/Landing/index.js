@@ -1,7 +1,8 @@
 import React from "react";
 import "materialize-css";
 import Header from "../../components/Navbar/navbar";
-import Foot from "../../components/Footer/footer"
+import Foot from "../../components/Footer/footer";
+import "./style.css";
 
 function Landing() {
   return (
