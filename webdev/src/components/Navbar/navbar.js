@@ -1,15 +1,16 @@
 import React from "react";
 import { Navbar, Icon, NavItem } from "react-materialize";
 import "materialize-css";
-import logo from "../images/webdevlogo.png";
+import logo from "../../images/webdevlogo2.png";
+import "./style.css";
 
 function Header() {
   return (
     <Navbar
       alignLinks="left"
       brand={
-        <a class="brand-logo"  href="{logo}">
-
+        <a class="brand-logo center">
+          <img src={logo}/>
         </a>
       }
       centerLogo
@@ -27,10 +28,10 @@ function Header() {
         preventScrolling: true,
       }}
     >
-      <NavItem href="/about">About US! </NavItem>
-      <NavItem href="components.html">Good Reads</NavItem>
-      <NavItem href="components.html">Resources</NavItem>
-      <NavItem href="components.html">Exercises</NavItem>
+      <NavItem href="/about"> About US! </NavItem>{" "}
+      <NavItem href="components.html"> Good Reads </NavItem>{" "}
+      <NavItem href="components.html"> Resources </NavItem>{" "}
+      <NavItem href="components.html"> Exercises </NavItem>{" "}
     </Navbar>
   );
 }
