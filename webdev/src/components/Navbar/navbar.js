@@ -9,8 +9,8 @@ function Header() {
     <Navbar
       alignLinks="left"
       brand={
-        <a class="brand-logo center">
-          <img src={logo}/>
+        <a class="brand-logo center" href="/">
+          <img src={logo} />{" "}
         </a>
       }
       centerLogo
@@ -28,10 +28,11 @@ function Header() {
         preventScrolling: true,
       }}
     >
-      <NavItem href="/about"> About US! </NavItem>{" "}
-      <NavItem href="components.html"> Good Reads </NavItem>{" "}
-      <NavItem href="components.html"> Resources </NavItem>{" "}
-      <NavItem href="components.html"> Exercises </NavItem>{" "}
+      <NavItem href="/"> Home </NavItem>
+      <NavItem href="/about"> About US! </NavItem>
+      <NavItem href="components.html"> Good Reads </NavItem>
+      <NavItem href="/resources"> Resources </NavItem>
+      <NavItem href="components.html"> Exercises </NavItem>
     </Navbar>
   );
 }
