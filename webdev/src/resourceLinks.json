@@ -1,7 +1,7 @@
 [{
         "id": 1,
         "name": "W3Schools",
-        "image": "../../images/download (6).png",
+        "image": "/images/download(6).png",
         "content": "Developer Website with helpful guides to everything from basic HTML and CSS to exploring deeper into Web Development.",
         "link": "https://www.w3schools.com/default.asp"
     },
@@ -23,49 +23,49 @@
     {
         "id": 4,
         "name": "Google Fonts",
-        "image": "../../images/download.png",
+        "image": "/images/download.png",
         "content": "Google Fonts, a standard go to spot when decided on the text asthetic of your website.",
         "link": "https://fonts.google.com/?selection.family=Orbitron:wght@500%7CPermanent+Marker&sidebar.open"
     },
     {
         "id": 5,
         "name": "Keyboard Shortcuts",
-        "image": "../../images/download (4).png",
+        "image": "/images/download(4).png",
         "content": "Wanna drive faster? these shortcuts will help work in Visual Studio Code faster by the minute.",
         "link": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
     },
     {
         "id": 6,
         "name": "OverApi",
-        "image": "../../images/download (5).png",
+        "image": "/images/download(5).png",
         "content": "Properties, Methods, Events Oh My! Lets just visit OverAPI.",
         "link": "https://overapi.com/javascript"
     },
     {
         "id": 7,
         "name": "MarkDown Cheat Sheat",
-        "image": "../../images/download (1).png",
+        "image": "/images/download(1).png",
         "content": "Need to write a README? this is MarkDown Syntax, know how to format the document that breaks it all down.",
         "link": "https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf"
     },
     {
         "id": 8,
         "name": "Git Cheat Sheat",
-        "image": "../../images/download (1).png",
+        "image": "/images/download(1).png",
         "content": "There are alot of things to know in the Command Line. Heres a great resource.",
         "link": "https://education.github.com/git-cheat-sheet-education.pdf"
     },
     {
         "id": 9,
         "name": "MDN Docs",
-        "image": "../../images/download (2).png",
+        "image": "/images/download(2).png",
         "content": "The MDN Web Docs, Stay in touch with the latest and greatest and if you need more information they have that too.",
         "link": "https://developer.mozilla.org/en-US/"
     },
     {
         "id": 10,
         "name": "Modern JavaScript",
-        "image": "../../images/download (3).png",
+        "image": "/images/download(3).png",
         "content": "Modern JavaScript, an online text book of sorts that allows you to get the addtional text to get that further understanding of JavaScript as a language.",
         "link": "https://javascript.info/"
     }
