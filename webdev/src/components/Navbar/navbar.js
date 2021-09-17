@@ -9,7 +9,7 @@ function Header() {
     <Navbar
       alignLinks="left"
       brand={
-        <a class="brand-logo center" href="/">
+        <a class="brand-logo center">
           <img src={logo} />{" "}
         </a>
       }
@@ -28,11 +28,12 @@ function Header() {
         preventScrolling: true,
       }}
     >
-      <NavItem href="/"> Home </NavItem>
-      <NavItem href="/about"> About US! </NavItem>
-      <NavItem href="components.html"> Good Reads </NavItem>
-      <NavItem href="/resources"> Resources </NavItem>
-      <NavItem href="components.html"> Exercises </NavItem>
+      <NavItem href="/"> Home </NavItem>{" "}
+      <NavItem href="/about"> About US! </NavItem>{" "}
+      <NavItem href="components.html"> Good Reads </NavItem>{" "}
+      <NavItem href="/resources"> Resources </NavItem>{" "}
+      <NavItem href="components.html"> Exercises </NavItem>{" "}
+      <NavItem href="/notes"> Notes </NavItem>{" "}
     </Navbar>
   );
 }
