@@ -6,6 +6,8 @@ import Icon from "react-materialize";
 import CardTitle from "react-materialize";
 
 
+function revealCard(props){
+
 <Row>
   <Col
     m={6}
@@ -26,3 +28,6 @@ import CardTitle from "react-materialize";
     </Card>
   </Col>
 </Row>
+}
+
+export default revealCard;
