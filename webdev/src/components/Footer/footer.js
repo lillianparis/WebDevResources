@@ -8,8 +8,8 @@ function Foot() {
         <Footer
         className="bottom-fixed"
         copyrights="2021 Copyright Text"
-        links={<ul><li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li></ul>}
-        moreLinks={<a className="grey-text text-lighten-4 right" href="#!">Contact</a>}
+        links={<ul><li><a className="grey-text text-lighten-3" href="#!">Email</a></li><li><a className="grey-text text-lighten-3" href="#!">Github</a></li><li><a className="grey-text text-lighten-3" href="#!">Linkdeln</a></li><li><a className="grey-text text-lighten-3" href="#!">Website</a></li></ul>}
+        moreLinks={<a className="grey-text text-lighten-4 right" href="#!">Web Development Resources</a>}
       >
         <h5 className="white-text">
           Web Development Resources
