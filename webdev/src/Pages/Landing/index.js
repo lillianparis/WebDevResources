@@ -22,7 +22,7 @@ export class Landing extends Component {
       >
 
         <Grid
-          // key={goodReads.id}
+    
           item
           xs={12}
           sm={6}
