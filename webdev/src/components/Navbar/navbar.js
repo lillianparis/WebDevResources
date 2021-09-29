@@ -29,13 +29,9 @@ function Header() {
       }}
     >
       <NavItem href="/"> Home </NavItem>{" "}
-<<<<<<< HEAD
       <NavItem href="/about"> Learn More </NavItem>{" "}
       <NavItem href="components.html"> Good Reads </NavItem>{" "}
-=======
-      <NavItem href="/about"> About US! </NavItem>{" "}
-      <NavItem href="/goodreads"> Good Reads </NavItem>{" "}
->>>>>>> 4e843f4d9d7b6e0c16654eaee2a0ba55eb6aa8ab
+
       <NavItem href="/resources"> Resources </NavItem>{" "}
       <NavItem href="components.html"> Exercises </NavItem>{" "}
       <NavItem href="/notes"> Notes </NavItem>{" "}
