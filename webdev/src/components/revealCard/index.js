@@ -6,7 +6,7 @@ import Icon from "react-materialize";
 import CardTitle from "react-materialize";
 
 
-function revealCard(props){
+function revealCard(){
 
 <Row>
   <Col

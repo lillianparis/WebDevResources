@@ -2,6 +2,8 @@ import React from "react";
 import "materialize-css";
 import { Row, Col, Card, Icon } from "react-materialize";
 
+function defaultCard() {
+  return (
 <Row>
   <Col
     m={6}
@@ -9,8 +11,8 @@ import { Row, Col, Card, Icon } from "react-materialize";
   >
     <Card
       actions={[
-        <a key="1" href="#">This is a link</a>,
-        <a key="2" href="#">This is a link</a>
+        <a key="1" href="#">Login</a>,
+        <a key="2" href="#">Sign Up</a>
       ]}
       className="blue-grey darken-1"
       closeIcon={<Icon>close</Icon>}
@@ -22,3 +24,7 @@ import { Row, Col, Card, Icon } from "react-materialize";
     </Card>
   </Col>
 </Row>
+  );
+    };
+
+    export default defaultCard;
