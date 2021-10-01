@@ -3,8 +3,12 @@ import "materialize-css";
 import Header from "../../components/Navbar/navbar";
 import revealCard from "../../components/revealCard";
 import Grid from "@material-ui/core/Grid";
+import bookCards from "../../bookCards.json"
 
 function books(){
+  state = {
+    bookCards,
+  };
     return(
         <>
 <Header />
@@ -18,7 +22,7 @@ function books(){
       >
         
           <Grid
-            // key={goodReads.id}
+            key={bookCards.id}
             item
             xs={12}
             sm={6}
