@@ -30,11 +30,13 @@ function Header() {
     >
       <NavItem href="/"> Home </NavItem>{" "}
       <NavItem href="/about"> Learn More </NavItem>{" "}
-      <NavItem href="components.html"> Good Reads </NavItem>{" "}
+      <NavItem href="/goodreads"> Good Reads </NavItem>{" "}
       <NavItem href="/resources"> Resources </NavItem>{" "}
       <NavItem href="components.html"> Exercises </NavItem>{" "}
       <NavItem href="/notes"> Notes </NavItem>{" "}
       <NavItem href="/notes"> Blog </NavItem>{" "}
+      <NavItem class="hide-on-med-and-down right" href="/login"> Login </NavItem>{" "}
+      <NavItem class="right" href="/signup"> Sign Up </NavItem>{" "}
     </Navbar>
   );
 }
