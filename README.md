@@ -53,6 +53,6 @@ Web Development Resources
 ### Library vs. Framework
 
 ## Contributors
--
--
+- Lillian Paris
+- Daniel Molina-Power
 
